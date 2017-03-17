@@ -40,7 +40,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
 /**
- * @author Sankar
+ * @author Sankar.Ramasamy
  * 
  */
 public class BulkEmailMain {
@@ -82,7 +82,6 @@ public class BulkEmailMain {
 			this.emailBody = emailTempBody;
 		}
 
-		@Override
 		public void run() {
 			try {
 				proceedTOSendEmail(toEmailID,fromEmailID,emailBody);
