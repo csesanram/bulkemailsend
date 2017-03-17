@@ -52,7 +52,7 @@ public class BulkEmailMain {
 	private static String SMPT_HOSTNAME = "mail.onlinecustomcase.com";
 	private static String SMPT_PORT = "26";
 	private static String USERNAME = "onlinecu";
-	private static String PASSWORD = "GuruOm$123";
+	private static String PASSWORD = "xxxx";
 	private static String FROMEMAILID = "support@onlinecustomcase.com";
 
 	public static void main(String[] args) {
